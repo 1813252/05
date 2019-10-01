@@ -12,11 +12,15 @@ int main(int argc, char *argv[]) {
 	
 	if (input>0)
 	
-	printf("|x|=%d\n", input);
+	printf("number is positive\n");
+	
+	else if (input<0)
+	
+	printf("number is negative\n");
 	
 	else 
 	
-	printf("|x|=%d\n",-input);
+	printf("number is 0");
 	
 	return 0;
 }
