@@ -12,10 +12,10 @@ int main(int argc, char *argv[]) {
 	
 	if (input>0)
 
-	printf("양수입니다");
+	printf("positive");
 	
 	else 
 	
-	printf("음수입니다");	
+	printf("non-positive");	
 	return 0;
 }
