@@ -11,13 +11,15 @@ int main(int argc, char *argv[]) {
 	scanf("%d",&input);
 	
 	if (input>0)
-	
+	{
 	printf("number is positive\n");
+	}
 	
 	else if (input<0)
-	
+	{
 	printf("number is negative\n");
-	
+	}
+		
 	else 
 	
 	printf("number is 0");
